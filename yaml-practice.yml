@@ -1,0 +1,23 @@
+# nested object in yml
+key1:
+  nestedkey: value
+  key2: value
+# multiline string in yml
+key3: |
+  line 1
+  line 2
+  line 3
+key4: value
+# array in yml
+arraykey:
+  - 1
+  - 2
+  - 3
+  - 4
+# array of object
+arraykey1:
+  - key1: value
+    key2: value
+    key3: value
+  - key2: value
+  - key3: value
